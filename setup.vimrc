@@ -10,7 +10,7 @@ set go=             " 不要图形按钮
 hi Normal ctermbg=black		"设置背景颜色为黑色
 hi Normal ctermfg=grey		"设置前景色/标准字体颜色为灰色
 set guifont=Courier_New:h10:cANSI   " 设置字体  
-"syntax on           " 语法高亮  
+syntax on           " 语法高亮  
 autocmd InsertLeave * se nocul  " 用浅色高亮当前行  
 autocmd InsertEnter * se cul    " 用浅色高亮当前行  
 "set ruler           " 显示标尺  
@@ -156,8 +156,6 @@ set foldlevel=3
 set foldenable              " 开始折叠
 " 不要使用vi的键盘模式，而是vim自己的
 set nocompatible
-" 语法高亮
-set syntax=on
 " 去掉输入错误的提示声音
 set noeb
 " 在处理未保存或只读文件的时候，弹出确认
